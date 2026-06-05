@@ -25,3 +25,6 @@ class TestCalculator:
     def test_divide_by_zero(self):
         with pytest.raises(ValueError):
             self.calc.divide(10, 0)
+
+
+            
